@@ -1,0 +1,33 @@
+body {
+  padding: 10px;
+}
+
+label {
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+}
+
+input, form {
+  background-color: lightgreen;
+  opacity: 0.8;
+  width: 30%;
+  padding: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  display: flex;
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 20%;
+}
+
+p {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  width: 30%;
+}

@@ -1,0 +1,6 @@
+<h2>Player Results</h2>
+<a routerLink="/results" activeLinkActive="active">Results</a>
+<form #resultForm="ngForm" (ngSubmit)="results(resultForm)" *ngFor="let list of resultList">
+  <p>{{ list.username }}</p>
+  <p>{{ list.scores }}</p>
+</form>

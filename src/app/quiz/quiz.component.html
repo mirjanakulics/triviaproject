@@ -1,0 +1,21 @@
+<p>QUIZ</p>
+<form #questionForm="ngForm" (ngSubmit)="submitAnswers(questionForm)">
+    <label for="">Enter Name Here</label>
+    <input type="text" ngModel name="name">
+    <button>Enter</button>
+    <div *ngFor="let list of questionList; index as i">
+        <p>{{ list.question_name }}</p>
+        <input value="{{list.choice_1}}" name="list{{i + 1}}" ngModel type="radio">
+        <label for="">{{ list.choice_1 }}</label>
+
+        <input value="{{list.choice_2}}" name="list{{i + 1}}" ngModel type="radio">
+        <label for="">{{ list.choice_2 }}</label>
+
+        <input value="{{list.choice_3}}" name="list{{i + 1}}" ngModel type="radio">
+        <label for="">{{ list.choice_3 }}</label>
+
+        <input value="{{list.choice_4}}" name="list{{i + 1}}" ngModel type="radio">
+        <label for="">{{ list.choice_4 }}</label>
+    </div>
+    <button>Submit Answers</button>
+</form>

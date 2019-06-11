@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 10px;
+  padding: 10px;
+  background-image: url("https://cdn.pixabay.com/photo/2016/12/04/15/40/animated-1881895_960_720.jpg");
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+h1 {
+  background-color: antiquewhite;
+  opacity: 0.8;
+  text-align: center;
+  width: 30%;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-content: space-between;
+  float: right;
+  padding: 10px;
+  font-size: 25spx;
+  background-color: white;
+  opacity: 0.8;
+}
+
+p, input {
+  display: flex;
+  position: relative;
+  align-content: center;
+  padding: 10px;
+  background-color: antiquewhite;
+  font-size: 20px;
+  opacity: 0.8;
+  border-radius: 20%;
+}
+
+/* .choice {
+  background-color: antiquewhite;
+  opacity: 0.8;
+} */
